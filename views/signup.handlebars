@@ -1,0 +1,9 @@
+{{#if message}}
+    <p>{{message}}</p>
+{{/if}}
+<form action="/auth/signup" method="post">
+    <input type="text" name="email" value="admin" required>
+    <input type="password" name="password" value="admin" required>
+    <button type="submit">Registrar</button>
+</form>
+<a href="/auth/login">Já tenho conta</a>
