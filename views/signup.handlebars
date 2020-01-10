@@ -1,9 +1,46 @@
+<style>
+	.initial-container {height: 100vh}
+	#messageError {position: absolute; top: 10px; right: 10px;}
+@keyframes example {
+  0 {opacity: 1;}
+  100% {opacity: 0;}
+}
+</style>
 {{#if message}}
-    <p>{{message}}</p>
+    <div class="alert alert-danger" id="messageError">{{message}}</div>
 {{/if}}
-<form action="/auth/signup" method="post">
-    <input type="text" name="email" value="admin" required>
-    <input type="password" name="password" value="admin" required>
-    <button type="submit">Registrar</button>
-</form>
-<a href="/auth/login">Já tenho conta</a>
+<div class="container initial-container">
+	<div class="row h-100">
+		<div class="col-md-3 m-auto">
+			<h2 class="mb-3">Register now</h2>
+			<form action="/auth/signup" method="post">
+				<div class="form-group">
+					<label for="email">email</label>
+					<input class="form-control" type="text" name="email" id="email" required>
+				</div>
+			    <div class="form-group">
+			    	<label for="password">Password</label>
+					<input class="form-control" type="password" name="password" id="password" required>
+				</div>
+			    <button class="btn btn-info w-100 mb-2" type="submit">SIGN IN</button>
+			</form>
+			<a class="btn-link" href="/auth/login">I have an account?</a>
+			<hr>
+			<p class="text-center">or use</p>
+			<a class="btn btn-outline-info w-100" href="/auth/google">Google</a>
+		</div>	
+	</div>
+</div>
+<script>
+
+var messageError = document.querySelector('#messageError')
+if(messageError !== null){
+	setTimeout(function() {
+		messageError.style.animation = 'example 2s'
+		setTimeout(function() {
+			messageError.remove()
+		}, 2000)
+	}, 3000)
+}
+
+</script>
