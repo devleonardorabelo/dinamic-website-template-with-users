@@ -1,4 +1,4 @@
-# WEBSITE TEMPLATE WITH NODEJS
+# DYNAMIC WEBSITE TEMPLATE WITH NODEJS
 a app using Express, Express-handlebars and Passport.
 
 To download all dependencies, use the command 'npm i' or 'npm install'
