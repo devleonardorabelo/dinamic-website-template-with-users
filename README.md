@@ -1,7 +1,22 @@
-# DYNAMIC WEBSITE TEMPLATE WITH NODEJS
-a app using Express, Express-handlebars and Passport.
+<h1 align="center">(PT-BR)MODELO PARA SITE DINÂMICO COM USUÁRIOS</h1>
+<h2 align="center">Express, Express-handlebars, Passport-local e google, mongoose e outros</h2>
+<hr>
 
-To download all dependencies, use the command 'npm i' or 'npm install'
-This is a simple local and google local login usign Passport from Nodejs.
+<h2>AINDA EM DESENVOLVIMENTO!</h2>
 
-Doubts? Send me an email -> leonardomrabelo@gmail.com 
+> NOTA: O projeto ainda está em testes, então ainda não é uma versão definitiva.
+
+Para o Front-end utilizei o Bootstrap 4 para maior rendimento.
+
+## Instalação
+
+### Dependências
+Para instalar todas as dependências, utilize o comando:
+
+    npm install
+    
+
+Mande um email para mim: leonardomrabelo@gmail.com
+
+<hr>
+
