@@ -20,8 +20,8 @@ Mande um email para mim: leonardomrabelo@gmail.com
 
 <hr>
 
-<h1 align="center">(PT-BR)DYNAMIC WEBSITE TEMPLATE WITH USERS</h1>
-<h2 align="center">Express, Express-handlebars, Passport-local e google, mongoose e outros</h2>
+<h1 align="center">(EN-US)DYNAMIC WEBSITE TEMPLATE WITH USERS</h1>
+<h2 align="center">Express, Express-handlebars, Passport-local, passport-google, mongoose and more</h2>
 <hr>
 
 <h2>STILL IN DEVELOPMENT!</h2>
